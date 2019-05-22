@@ -1,0 +1,20 @@
+h1 {
+    color: forestgreen;
+    text-shadow: 2px 2px 2px #030603;
+    color: #444444;
+    text-shadow: -1px 1px 1px #000, 1px 1px 1px #ccc;
+}
+
+body {
+    background-color: rgba(238, 238, 238, 0.81) !important;
+    background-image: url("http://s1.picswalls.com/wallpapers/2014/07/25/football-image_041200600_96.jpg");
+    background-blend-mode: color;
+    background-size: 1920px;
+    text-align:center;
+}
+
+
+p{
+
+    text-decoration-color: #5B8E4F;
+}

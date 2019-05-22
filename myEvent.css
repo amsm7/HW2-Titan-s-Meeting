@@ -1,0 +1,503 @@
+
+
+h3{
+    font-style: oblique;
+    border-radius: 55px;
+    color:#1a3310
+}
+input[type=number][size="5"] {
+    width: 3em;
+}
+input[type=number][size="5"] {
+    width: 3em;
+}
+
+#mainEvent{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgba(1,1,1,0.7);
+}
+
+#mainEvent a{
+    font-weight: bold;
+    font-size: 4em;
+}
+
+#mainEvent a:hover {
+    font-size
+    : 88px;
+    transition: all 500ms;
+    font-size-adjust: none;
+    color: #286a34;
+    font-family: icon-brand;
+}
+
+body {
+    background-color: rgba(238, 238, 238, 0.81) !important;
+    background-image: url("https://i.ibb.co/mTbHY8b/reeeeeeka.jpg");
+    background-blend-mode: color;
+    text-align:center;
+    font-family: "Kozuka Mincho Pr6N EL";
+
+}
+
+mapouter{
+    float: right;
+}
+
+
+.header{
+    width:70px;height:30px;
+}
+
+.nav-item{
+    padding: 7px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: forestgreen;
+    color: white;
+}
+
+h1 {
+    color: forestgreen;
+    text-shadow: 2px 2px 2px #030603;
+    color: #444444;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+}
+
+p {
+    color: black;
+}
+img {
+    width: 100%;
+}
+
+
+.gif {
+    padding: 8px;
+    position: relative;
+    left: 550px;
+    margin-left: 30px;
+    rotation-point: left 650px ;
+
+    border: 2px solid #000;
+    border-style: dotted;
+    border-radius: 5px;
+}
+
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    z-index: 4;
+}
+
+html {
+    font-family: "Droid Sans Mono Dotted";
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.Order {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+.Order {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+
+    }
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}
+
+.headline1 {
+    border-bottom: 1px dashed #aaa;
+    border-left: 3px solid #aaa;
+    border-left: 7px solid rgba(0,0,0,.2);
+    margin: 0 -15px 15px -22px;
+    padding: 5px 15px;
+}
+
+
+table.greenTable {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 2px solid #5B8E4F;
+    background-color: #D4EED1;
+    width: 80%;
+    text-align: center;
+}
+table.greenTable td, table.greenTable th {
+    border: 2px solid #24943A;
+    padding: 5px 5px;
+}
+table.greenTable tbody td {
+    font-size: 12px;
+}
+table.greenTable td:nth-child(even) {
+    background: #8CDA7B;
+}
+table.greenTable thead {
+    background: #24943A;
+    background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: -webkit-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    border-bottom: 0px solid #444444;
+}
+table.greenTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #F0F0F0;
+    text-align: center;
+    border-left: 2px solid #24943A;
+}
+table.greenTable thead th:first-child {
+    border-left: none;
+}
+
+table.greenTable tfoot td {
+    font-size: 12px;
+}
+table.greenTable tfoot .links {
+    text-align: right;
+}
+table.greenTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #24943A;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+
+
+#gallery-text-left{
+    background-color: #e3e3e3;
+    background-position: left;
+    width:25%;
+    border-radius: 42px 42px 42px 36px;
+    -moz-border-radius: 42px 42px 42px 36px;
+    -webkit-border-radius: 42px 42px 42px 36px;
+    border: 0px dashed #000000;
+}
+#gallery-paragraph-1{
+    font-size: 16px;
+    border-left:8px solid #3CB371;
+    border-radius:4px;
+    padding-left:12px;
+}
+#gallery-paragraph-2{
+    border-left:0px solid #3CB371;
+    border-radius:4px;
+    padding-left:15px;
+}
+
+#gallery-text{
+    font-size: 20px;
+}
+counter{
+    left: 50px;
+}
+
+ /*This is the section of the contact us button and his modal pupup*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #0a5504;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: relative;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup form - h..
+.
+idden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-image: url("https://i.ibb.co/hXpgHB2/20170823-183424.jpg");
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+//  background-color: #e31708;
+
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: #1a3310;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+/*THis is the modal section*/
+
+/*Main Box Content*/
+
+.modalBox {
+
+    position: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    top: 0;
+
+    right: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    background: rgba(0,0,0,0.8);
+
+    color: #e3e3e3;
+
+    z-index: 99999;
+
+    opacity:0;
+
+    -webkit-transition: opacity 400ms ease-in;
+
+    -moz-transition: opacity 400ms ease-in;
+
+    transition: opacity 400ms ease-in;
+
+    pointer-events: none;
+
+}
+
+/*When the href are clicked*/
+
+.modalBox:target {
+
+    opacity:1;
+
+    pointer-events:auto;
+
+}
+
+/*Positioning of the child box*/
+
+.modalBox > div {
+
+    width: 400px;
+
+    position: relative;
+
+    margin: 10% auto;
+
+    padding: 5px 20px 13px 20px;
+
+    border-radius: 0px;
+
+    background-image: url("https://i.ibb.co/q1SrX4j/lalalal.jpg");
+
+}
+
+/*Positioning and style of the close button*/
+
+.close {
+
+    background: white;
+
+    color: black;
+
+    line-height: 25px;
+
+    position: absolute;
+
+    right: 1px;
+
+    text-align: center;
+
+    top: 1px;
+
+    width: 35px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    -webkit-border-radius: 12px;
+
+    -moz-border-radius: 12px;
+
+    border-radius: 12px;
+
+    -moz-box-shadow: 1px 1px 3px #000;
+
+    -webkit-box-shadow: 1px 1px 3px #000;
+
+    box-shadow: none;
+
+    border: none;
+
+}
+
+/*Style when mouse hovers on the close button*/
+
+.close:hover {
+
+    background: black;
+
+    color: white;
+
+}
+
+/*Default style of the open pop-up button*/
+
+.button {
+
+    background-color: #156707;
+
+    border: none;
+
+    color: white;
+
+    padding: 7px 21px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 6px 3px;
+
+    cursor: pointer;
+
+}
+
+/*
+
+MODAL SECTION*/
+
+

@@ -1,0 +1,20 @@
+h1 {
+    color: forestgreen;
+    text-shadow: 2px 2px 2px #030603;
+    color: #444444;
+    text-shadow: -1px 1px 1px #000, 1px 1px 1px #ccc;
+}
+
+body {
+    background-color: rgba(238, 238, 238, 0.81) !important;
+    background-image: url("https://marketingland.com/wp-content/ml-loads/2014/09/soccer-ball-world-cup-ss-1920-800x450.jpg");
+    background-blend-mode: color;
+    background-size: 1920px;
+    text-align:center;
+}
+
+
+p{
+
+    text-decoration-color: #5B8E4F;
+}
